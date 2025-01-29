@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+#myfrm{
+    display: none;
+}
+.enhanced-field{
+    display: none;
+}
+
+/**** CSS Start 12-12-24 STS0005 *****/
+#myModal video#myVideo {
+    object-fit: cover;
+    width: 100%;
+    height: 60vh;
+}
+#myModal button#close-btn {
+    background: #000000;
+    position: absolute;
+    right: -2%;
+    top: -3%;
+    border-radius: 30px;
+    padding: 8px 11px;
+    font-size: 12px;
+	    z-index: 99999;
+}
+#myModal .modal-content {
+    position: relative;
+}
+	.alert-danger p {
+    margin-bottom: 0px !important;
+}
+@media only screen and (max-width: 767px) {
+
+	#myModal video#myVideo {
+    height: 35vh;
+}
+	button.close.SuccessModalClose {
+       padding: 2% 2.4% !important;
+    
+}
+	.estimation span.ins_css {
+    position: relative;
+    bottom: 85px;
+}
+.main-section h2 {
+    padding-bottom: 50px !important;
+}
+
+/*
+	.estimation .alert-danger p {
+    position: relative;
+    bottom: 20px;
+}
+*/
+	#myfrm p {
+    position: relative;
+    top: 0px;
+}
+  .modal-content {  width: 90% !important;
+}
+	.details_half {
+    margin-bottom: 5px;
+}
+	.details_second {
+    margin-top: 20px;
+}
+	.radio-group-2 {
+    width: 50% !important;
+}
+	.enhanced-ceilingType-choice {
+    width: 100% !important;
+}
+	.details_second_rec {
+    margin-bottom: 20px;
+}
+	.enhanced-field {
+    margin-bottom: 20px;
+}
+/*
+	.details_preference {
+    margin-bottom: 40px !important;
+}
+*/
+.details {
+    margin-bottom: 5px !important;
+}
+	.details_half.first {
+    margin-bottom: 5px;
+}
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+	.enhanced-ceilingType-choice {
+    width: 50% !important;
+}
+	.estimation {
+    width: 100% !important;
+}
+.details_half.first {
+    margin-right: 6px !important;
+}
+}
+@media only screen and (min-width: 768px) {
+	.details_preference {
+    margin-bottom: 5px !important;
+}
+.main-section span.ins_css.new_name {
+    left: 1.5%;
+}
+.main-section span.ins_css.sqar {
+    left: 1%;
+}
+.main-section input {
+    background-color: #fff !important;
+}
+.main-section span.ins_css {
+    pointer-events: none;
+    position: absolute;
+    left: 3%;
+    top: 7%;
+    background: #fff;
+    transition: 0.4s;
+    font-size: 16px;
+    padding: 10px;
+}
+	.radio-group-2 {
+    display: inline-flex;
+    width: 20%;
+}
+/*
+	.details_second_rec {
+    margin: 30px 0px;
+}
+*/
+	.enhanced-field {
+    margin: 5px 0px;
+}
+	.main-section h2 {
+    font-size: 25px;
+}
+.details_half.first {
+    margin-right: 10px;
+}
+	.radio-group label{
+    width:100%;
+}
+	.details_btn button{
+width: 20%;
+}
+.radio-group {
+    display: flex;
+    gap: 15px;
+}
+	.estimation{
+    width: 70%;
+}
+.details_half {
+    width: 49%;
+    display: inline-block;
+}
+.alert-danger p {
+    padding-left: 15px;
+}
+}
+/**** End of Media Query  ****/
+.BasementDetailSuccess {
+    display: none;
+}
+.estimation select:focus-visible {
+    border: 1px solid #a1cc3b !important;
+    outline: 1px solid #a1cc3b;
+}
+.toggle_class {
+    padding: 10px 0px;
+}
+
+.estimation input.switch {
+	 position: relative;
+	 appearance: none;
+	 -moz-appearance: none;
+	 -webkit-appearance: none;
+	 width: 35px !important;
+	 height: 20px;
+	 border-radius: 30px;
+	 cursor: pointer;
+	 background: #ccc;
+	 transition: box-shadow 0.3s ease-in-out, padding 0.25s ease-in-out;
+	 transition-delay: 0.1s, 0s;
+}
+ .estimation input.switch:focus {
+	 border: 0;
+	 outline: 0;
+}
+.estimation input.switch:checked {
+	 transition-delay: 0s, 0s;
+	 box-shadow: inset 0 0 0 2.62857em #00c169 !important;
+	 padding-left: 15px;
+}
+ .estimation input.switch:before {
+	 display: inline-block;
+	 height: 14px;
+	 width: 14px;
+	 margin: 3px;
+	 background-color: #fff;
+	 border-radius: 2.1em;
+	 transition: all 0.1s ease 0.1s;
+}
+ .estimation input.switch:before, input.switch:after {
+	 content: "";
+	 display: block;
+}
+ input.switch:active::before {
+	 transition: all 0.1s ease 0.05s;
+}
+ .estimation select:focus {
+    border-color: #A1CC3B;
+    box-shadow: #a1cc3b36 0px 4px 12px;
+}
+.radio-group-2 {
+    display: inline-flex;
+    width: 30%;
+    padding: 0px 0px;
+}
+.enhanced-ceilingType-choice {
+    display: inline-flex;
+    width: 35%;
+    padding: 10px 0px;
+}
+.enhanced-ceilingType-choice {
+    padding: 0px 0px;
+}
+.main-section {
+    position: relative;
+}
+.estimation label {
+  position: relative;
+   width: 100%;
+   font-family: 'Inter';
+    display: inline-block;
+	    line-height: 1.5;
+    vertical-align: middle;
+	margin: 5px;
+}
+ .estimation .main-section input {
+      border: 1px solid #bbbbbbbb; 
+}
+/* .main-section span.ins_css {
+	padding: 15px;
+    pointer-events: none;
+    position: absolute;
+    left: 15px;
+    top: 1px;
+	font-size: 14px;
+	background: #fff;
+    transition: 0.4s;
+	opacity: 0.7;
+} */
+.estimation input:focus, input:not(:placeholder-shown) {
+  outline: none;
+}
+.main-section input:focus + span, input:not(:placeholder-shown) + span {
+  opacity: 1;
+  color: #000;
+  transform: scale(0.75) translateY(-65%) translateX(-20px);
+}
+.details_preference {
+    margin-bottom: 20px;
+}
+.input > .txt-underline{
+  border: none;
+  outline: none;
+}
+.enhanced-ceilingType-choice input[type="radio"] {
+    transform: scale(1.5);
+    margin: 10px;
+}
+.details_preference .radio-group label:hover {
+    background: #222;
+    color: #fff;
+    outline: 2px solid #ffffff;
+    outline-offset: -5px;
+    border-radius: 8px;
+}
+.main-section .input{
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+.details_second {
+    margin-bottom: 5px;
+}
+.underline{
+  transition: all 0.5s;
+  display: inline-block;
+  bottom: 0;
+  left: -100%;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+}
+.input > .txt-underline:focus + .underline{
+  left: 0;
+}
+.radio-group label {
+    margin: 5px 0px 5px 0px;
+    padding: 10px;
+    border: 1px solid #bbbbbbbb;
+	padding-left: 10px !important;
+    display: block;
+    border-radius: 8px;
+}
+.details_btn button {
+background: #000000;
+    color: #fff;
+    border: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+	 margin-top: 10px;
+}
+/*
+.estimation .details {
+    margin-bottom: 35px;
+}
+*/
+.radio-group  input {
+    box-shadow: none;
+    transform: scale(1.5);
+    margin: 10px;
+	accent-color: #000;
+}
+.radio-group-2 input[type="radio"] {
+    transform: scale(1.5);
+    margin: 10px;
+}
+.details_preference .details_btn button {
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+    border: 0px;
+    padding: 10px 20px;
+}
+.details_btn button:hover {
+      background: #A1CC3B;
+}
+.estimation select {
+        border: 1px solid #bbbb;
+    padding: 14px 8px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+	margin: 0px 0px 0px 0px;
+	font-family: 'Inter';
+	
+	    border-radius: 10px;
+}
+.estimation input {
+    border-radius: 8px !important;
+	padding: 10px 10px !important;
+    background: #ffffff;
+  accent-color: #34a744;
+}
+.estimation input:focus {
+    box-shadow: #a1cc3a66 0px 0px 9px;
+    background: #fbfbfb;
+    border: 1px solid #9ac533cf !important;
+}
+.main-section h2 {
+text-align: center;
+    font-size: 18px;
+    font-family: Inter;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+.intro{
+	display: none !important;
+	
+}
+.details_btn {
+    margin: 5px 0px;
+}
+.details_btn .submit_btn {
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 10px 30px;
+}
+.estimation {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.details_btn input#Submit {
+    background: #000;
+    color: #fff;
+    padding: 10px 25px;
+    margin-top: 20px;
+}
+
+.estimation .details input:focus-visible {
+    outline: none;
+}
+.estimation legend {
+    font-family: 'Inter';
+    color: #000;
+	   font-weight: 600;
+    font-size: 16px;
+	padding: 0 5px;
+}
+.estimation fieldset .details {
+    padding-bottom: 15px;
+}
+
+.preference-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+/**** CSS End 12-12-24 STS0005 *****/
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: auto; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+#loader-container {
+    text-align: center;
+    color: #000;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 600;
+}
+/* Modal Content/Box */
+button.close.SuccessModalClose {
+    float: right;
+    background: #000;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    bottom: 15px;
+ padding: 1% 1.2%;
+    color: #fff;
+}
+.errorHighlight {
+    border: 1px solid red !important;
+}
+ .modal-body {
+    padding: 75px;
+    text-align: center;
+}
+ .msg {
+    font-weight: 600;
+}
+#SuccessResponseModal .modal-dialog {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0% auto;
+    transform: translate(-50%, -50%);
+}
+.modal-content #loader-container {
+    padding-top: 20px;
+}
+.modal-content #myVideo {
+    border-radius: 10px 10px 0px 0px;
+}
+.modal-content {
+    width: 40%;
+    background: #fff;
+    margin: 0 auto;
+	border-radius: 10px;
+}
+
+#myModal {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+	    justify-content: center;
+    align-items: center;
+}
+.estimation .alert-danger {
+    color: red;
+}
+#SuccessResponseModal {
+    height: 100%;
+}
+/**** Pop up Animation start ****/
+.estimation .dot {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #1D2327;
+}
+
+
+.container-dot .dot:nth-last-child(1) {
+  animation: jumpingAnimation 0.6s 0.1s ease-in infinite;
+}
+.container-dot .dot:nth-last-child(2) {
+  animation: jumpingAnimation 0.6s 0.2s ease-in infinite;
+}
+.container-dot .dot:nth-last-child(3) {
+  animation: jumpingAnimation 0.6s 0.3s ease-in infinite;
+}
+
+@keyframes jumpingAnimation {
+  0 {
+    transform: translate3d(0, 0,0);
+  }
+  50% {
+    transform: translate3d(0, 15px,0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+
+/* 24-jan-25 */
+/* #formModal{
+    display: none;
+} */
+.main-section input[type="text"], .main-section  input.txt-underline, .main-section select {
+    width: 100%;
+}

@@ -1,0 +1,7 @@
+.mytable{
+    border: 1px solid #000;
+    width: auto;
+}
+.mytable th,td{
+    border: 1px solid #000;
+}
